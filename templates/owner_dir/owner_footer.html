@@ -1,0 +1,17 @@
+{% extends './owner_base.html' %}
+{% load static %}
+
+
+{% block owner_footer %}
+<footer class="py-4  mt-auto" style="background-color: rgb(70, 34, 3)">
+    <div class="container-fluid px-4">
+        <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-white">Copyright &copy; PG Finder</div>
+            <div>
+                <a href="/user/owner/dashboard/"><img src="{% static 'images/pg_finder_logo.svg' %}"
+                        style="-webkit-filter:invert(1); filter:invert(1);" height="50"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock owner_footer %}
